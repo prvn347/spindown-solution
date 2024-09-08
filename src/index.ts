@@ -1,4 +1,7 @@
 import axios from "axios";
+import express from "express";
+
+const app = express();
 
 const url = `https://synclistener-backend.onrender.com/health`;
 
@@ -24,4 +27,4 @@ function reloadWebsite() {
 
 setInterval(reloadWebsite, interval);
 
-//
+app.listen(3000);
