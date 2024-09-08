@@ -1,4 +1,3 @@
-import express from "express";
 import axios from "axios";
 
 const url = `https://synclistener-backend.onrender.com/health`;
